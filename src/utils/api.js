@@ -3,7 +3,7 @@ import { useAuthStore } from '../stores/auth'
 
 // axios 기본 설정
 const api = axios.create({
-  baseURL: 'http://localhost:8081/api',
+  baseURL: 'https://springboot-1-u9l2.onrender.com/api',
   timeout: 10000,
 })
 

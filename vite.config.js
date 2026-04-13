@@ -16,8 +16,9 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "http://localhost:8081", // ← 백엔드 서버 주소
+        target: "https://springboot-1-u9l2.onrender.com",
         changeOrigin: true,
+        secure: true,
       },
     },
   },
