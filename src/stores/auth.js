@@ -8,7 +8,7 @@ export const useAuthStore = defineStore('auth', () => {
   const isAuthenticated = computed(() => !!token.value)
 
   // API 기본 URL
-  const API_BASE_URL = 'https://springboot-1-u9l2.onrender.com/api'
+  const API_BASE_URL = 'https://backend-hkxj.onrender.com/api'
 
   // 로그인
   const login = async (credentials) => {

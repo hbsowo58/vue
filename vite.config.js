@@ -16,7 +16,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "https://springboot-1-u9l2.onrender.com",
+        target: "https://backend-hkxj.onrender.com",
         changeOrigin: true,
         secure: true,
       },
